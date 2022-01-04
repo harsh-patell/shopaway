@@ -1,0 +1,139 @@
+body {
+  width: 350px;
+  height: 500px;
+  margin: 0px;
+  background-color: #eeeeee;
+  border: 1px solid black;
+}
+
+.header {
+  text-align: center;
+  background-color: #0d7377;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.heading-text {
+  font-size: 2rem;
+  font-family: "Pacifico", cursive;
+  padding: 20px;
+  margin: 0px;
+  color: white;
+  padding-top: 7px;
+}
+
+.formtext {
+  font-size: medium;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  position: relative;
+  left: 5%;
+  font-weight: bold;
+  height: fit-content;
+  width: fit-content;
+}
+
+.heading-discription {
+  font-size: small;
+  font-family: "Archivo Narrow", sans-serif;
+  color: white;
+  padding: 0;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid #0d7377;
+  background-color: #eeeeee;
+  outline: none;
+  width: 90%;
+  position: relative;
+  left: 5%;
+}
+
+input[type="text"]:focus {
+  border: 2px solid #0d7377;
+}
+
+.item-info {
+  margin: 25px;
+}
+
+.button {
+  border-radius: 50%;
+  margin: 20px;
+  width: 70px;
+  height: 70px;
+  transition-duration: 0.3s;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.buttontext {
+  font-size: 45px;
+  text-align: center;
+}
+
+.f1 {
+  padding: 5%;
+}
+
+.b1 {
+  background-color: #39a2db;
+}
+
+.b2 {
+  background-color: #a2dbfa;
+}
+
+.b3 {
+  background-color: #0d7377;
+  color: white;
+  display: inline block;
+}
+
+.footer {
+  text-align: center;
+  background-color: #0d7377;
+  padding: 5px;
+  border-top: 2px solid black;
+  position: absolute;
+  bottom: 0px;
+  height: 65px;
+  width: 350px;
+}
+
+.footer-button {
+  position: relative;
+  top: 25%;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  color: black;
+  border: 1px solid #313131;
+  transition-duration: 0.3s;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.footer-button:hover {
+  background-color: #dbd5d5;
+  color: black;
+}
+
+.item-image {
+  border: 1px solid #0d7377;
+  height: 100px;
+  width: 100px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+/* button[type="button"] {
+  font-size: 45px;
+  text-align: center;
+  justify-content: center;
+} */
